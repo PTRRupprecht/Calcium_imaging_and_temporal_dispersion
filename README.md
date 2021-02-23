@@ -2,6 +2,12 @@
 
 Analysis of temporal dispersion from calcium imaging data processed with a spike inference algorithm
 
+### Getting started
+
+To get started, just [open this Colab Notebook](https://colab.research.google.com/github/PTRRupprecht/Calcium_imaging_and_temporal_dispersion/blob/main/Temporal_dispersion_of_activity_from_deconvolved_calcium_imaging.ipynb).
+
+### Background
+
 Calcium imaging is temporally less precise than electrophysiology. [A recent study by Wei et al. (2020)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008198) showed that under the investigated imaging conditions, neuronal activity that appeared to have more or less clearly defined bouts from electrophysiological recordings appeared to be more continuous (like a smooth sequence) from calcium imaging data, even if those were deconvolved.
 
 Is this indeed not possible to clearly distinguish smooth sequential activity patterns from more discrete bouts using calcium imaging? The short answer is, no; it is possible, under certain conditions.
